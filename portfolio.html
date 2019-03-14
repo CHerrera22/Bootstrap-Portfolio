@@ -5,47 +5,51 @@
     <meta charset="UTF-8">
 
     <title>Portfolio | Cris Herrera</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Cris Herrera</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+    <ul class="nav bg-dark">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact
+            </a>
+        </li>
+
+    </ul>
     <div id="main-container" class="container">
         <section class="main-section">
             <h1>Portfolio</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><img src="images/CatMakeFace.jpg" class="rounded float-left" class="col-md-6"
+                            alt="Cat Life"><img src="images/BirdScream.jpg" class="rounded float-right" class="col-md-6"
+                            alt="Birding">
+                        <div class="w-50"></div>
+                    </div>
+                    <div class="col"></div>
 
-            <div class="work">
-                <img src="images/CatMakeFace.jpg" alt="Cat Life">
-                <h3>Cat Life</h3>
-            </div>
-            <div class="work">
-                <img src="images/BirdScream.jpg" alt="Birding">
-                <h3>Birding</h3>
-            </div>
-            <div class="work">
-                <img src="images/TwoKittens.jpg" alt="Kitten Wrangling">
-                <h3>Kitten Wrangling</h3>
-            </div>
-            <div class="work">
-                <img src="images/CampingSunset.jpg" alt="Camping">
-                <h3>Camping</h3>
-            </div>
-            <div class="work">
-                <img src="images/MrToad.jpg" alt="Mr. Toad">
-                <h3>Mr. Toad</h3>
 
-            </div>
-
+                    <img src="images/TwoKittens.jpg" class="rounded float-left" alt="Kitten Wrangling">
+                    <img src="images/CampingSunset.jpg" class="rounded float-right" alt="Camping">
+                    <img src="images/MrToad.jpg" class="rounded mx-auto d-block" alt="To Nowhere In Particular">
+                </div>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
 </body>
 
 </html>
